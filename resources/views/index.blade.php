@@ -362,7 +362,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Pricing</h2>
-          <p>Check our Pricing</p>
+          <p>Pilih Paket Kursus yang Tepat Untuk Anda</p>
         </div>
 
         <div class="row" data-aos="fade-left">
