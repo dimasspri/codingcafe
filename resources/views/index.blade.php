@@ -123,7 +123,7 @@
               <li><i class="bi bi-check"></i>Bisa Menjadi Tempat Bekerja Sekaligus Bersantai</li>
             </ul>
             <p>
-              Jadi,Jangan Lewatakn Kesempatan Ini Dan Segeralah <br> Datang Ke Coding Cafe Untuk Menikmati Semua Fasilitas Kami
+              Jadi,Jangan Lewatkan Kesempatan Ini Dan Segera <br> Datang Ke Coding Cafe Untuk Menikmati Semua Fasilitas Kami
             </p>
           </div>
         </div>
@@ -355,6 +355,75 @@
       </div>
     </section><!-- End Testimonials Section -->
 
+
+      <!-- ======= Pricing Section ======= -->
+      <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Check our Pricing</p>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Ultimate</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
     <!-- ======= Team Section ======= -->
 
     <!-- uncomment jika ingin menambahkan menu team -->
@@ -454,30 +523,50 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Komplek Perumahan Rajawali</p>
+                <p>Jl.Rajawali 5 NO.D20. Pacul Tegal</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>doktortjddi@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+62 815 8436 1845</p>
+                <p>+62 819 4700 4040</p>
               </div>
-
             </div>
-
           </div>
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-          
+<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="col-md-6 form-group mt-3 mt-md-0">
+      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+    </div>
+  </div>
+  <div class="form-group mt-3">
+    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+  </div>
+  <div class="form-group mt-3">
+    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+  </div>
+  <div class="my-3">
+    <div class="loading">Loading</div>
+    <div class="error-message"></div>
+    <div class="sent-message">Your message has been sent. Thank you!</div>
+  </div>
+  <div class="text-center"><button type="submit">Send Message</button></div>
+</form>
 
-        </div>
-
-      </div>
+</div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
