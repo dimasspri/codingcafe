@@ -1,4 +1,12 @@
-<h1>Preview Halaman Web</h1>
+<h1>README</h1>
+
+<h2>JIka tidak bisa menajalankan file karena vendor bermasalah</h2>
+<h2>Jalankan Perintah ini</h2>
+<p>composer install <br>
+    lalu jalankan lagi 
+</p>
+
+<h2>Preview Halaman Web</h2>
 
 ![Screenshot (21)](https://user-images.githubusercontent.com/77037537/173312303-2f873a01-0f19-4af1-b97a-22c20aa012d7.png)
 
